@@ -307,7 +307,29 @@ footer {
     justify-content: center;
     align-items: center;
   }
+  .top-content {
+    padding: 5px;
+  }
   .bottom-content {
-    display: none;
+    width: 100%;
+    display: flex;
+    font-size: 0.5rem;
+    padding: 0 20px;
+  }
+  .bottom-content .work-history {
+    display: flex;
+  }
+  .bottom-content .work-history th {
+    margin: 0 10px;
+    padding: 0 5px;
+    font-weight: bold;
+    border-right: 1px solid black;
+  }
+  .bottom-content .work-history td {
+    padding: 5px 5px;
+    border-right: 1px solid black;
+  }
+  .bottom-content .work-history tr:first-child {
+    background: darkgrey;
   }
 }
